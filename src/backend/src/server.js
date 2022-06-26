@@ -1,10 +1,13 @@
 import bodyParser from 'body-parser';
 import { MongoClient } from 'mongodb'
+import path from 'path'
 const express = require('express')
 const app = express()
 const port = 8090
 
-app.use(bodyParser.json());
+
+app.use(bodyParser.json())
+app.use(express.static(path.join(__dirname, '/build')))
 app.listen(port, () => {
     console.log(`app listening on port ${port}`)
   })
