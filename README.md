@@ -1,4 +1,6 @@
-# Getting Started with Create React App. Running at http://44.205.254.148:3000 on an Amazon EC2 instance. Stack used MERN. Not aesthetic in any way leveraging AWS, Mongo Altas DB and running a local instance of Mongo on the instance to persist the data. Nothing too serious a weekend hobby  
+# Getting Started with Create React App. 
+
+Running at http://44.205.254.148:3000 on an Amazon EC2 instance. Stack used MERN. Not aesthetic in any way leveraging AWS, Mongo Altas DB and running a local instance of Mongo on the instance to persist the data. Nothing too serious a weekend hobby  
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
